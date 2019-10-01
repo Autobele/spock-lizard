@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --hdr-color: #eeeeee;
+    --main-color: #10316b;
+    --badg-color: #df0e62;
+    --fnt-color: #111;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: "Open Sans"
+}
+
+/* HEADER */
+
+
+header {
+    background-color: var(--hdr-color);
+    text-align: center;
+}
+
+header>h1 {
+    padding: 20px;
+    color: var(--fnt-color);
+}
+
+/* FIM HEADER */
+
+/* MAIN */
+
+main {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* SCORE */
+
+.score-board {
+    width: 150px;
+    margin: 30px auto;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+}
+
+.badge {
+    background-color: var(--badg-color);
+    width: auto;
+    position: absolute;
+    font-size: 16px;
+}
+
+#user-badge {
+    padding: 3px;
+    top: 13px;
+    left: -20px;
+}
+
+#computer-badge {
+    padding: 3px;
+    top: 13px;
+    right: -27px;
+}
+
+/* FIM SCORE */
+
+/* RESULTS */
+
+.result {
+    margin: 16px;
+}
+
+/* FIM RESULTS */
+
+/* CHOICES */
+
+.choices {
+    text-align: center;
+    margin: 30px;
+    ;
+}
+
+.choice {
+    display: inline;
+    margin: 0 6px;
+}
+
+.rounded-white{
+    border: 3px solid white;
+}
+
+.choice>img {
+    width: 70px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* FIM CHOICES */
+
+.instruction-message {
+    margin: 10px;
+}
+
+ul {
+    position: relative;
+    margin-top: 40px;
+    list-style: none;
+    line-height: 2;
+}
+
+ul>li {
+    font-size: 12px;
+}
+
+
+.green-border {
+    border: 3px solid #4dcc7d;
+    box-shadow: 0 0 15px #31b43a;
+}
+
+.red-border {
+    border: 3px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-border {
+    border: 3px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+/* FIM MAIN */
